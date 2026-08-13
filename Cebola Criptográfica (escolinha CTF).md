@@ -8,9 +8,11 @@ Esse CTF, presente na Escolinha CTF, nos fornece um arquivo que contém o seguin
 
 00110101 00110010 00100000 00110110 01100010 00100000 00110111 00111000 00100000 00110100 00110010 00100000 00110101 00110010 00100000 00110011 00110011 00100000 00110111 00110100 00100000 00110100 00110101 00100000 00110100 01100100 00100000 00110101 00111000 00100000 00110101 00111001 00100000 00110111 01100001 00100000 00110110 00110011 00100000 00110110 01100001 00100000 00110101 00110101 00100000 00110011 00110000 00100000 00110110 00110011 00100000 00110011 00110001 00100000 00110011 00111001 00100000 00110110 01100001 00100000 00110100 01100101 00100000 00110100 00110111 00100000 00110011 00110000 00100000 00110011 00110000 00100000 00110101 00110010 00100000 00110100 00110100 00100000 00110101 00110001 00100000 00110011 00110001 00100000 00110110 00110110 00100000 00110101 00110001 00100000 00110011 01100100 00100000 00110011 01100100
 
+Com ela nós podemos perceber que provalvemente se trata de um cifra e com essa informação já podemos ir para a resolução.
+
 ### Resolução
 
-Essa resolução será inteiramente feita no site `Dcode`. Como inicialmente não temos conhecimento de qual cifra esse padrão se trata, buscamos o `Cipher Identifier` para termos uma direção e darmos o primeiro passo. Ao inserir a cifra, o site Dcode nos sugere o `ASCII Code`.
+Essa resolução será inteiramente feita no site [`Dcode`](https://www.dcode.fr/en). Como inicialmente não temos conhecimento de qual cifra esse padrão se trata, buscamos o `Cipher Identifier` para termos uma direção e darmos o primeiro passo. Ao inserir a cifra, o site Dcode nos sugere o `ASCII Code`.
 
 <img width="789" height="389" alt="image" src="https://github.com/user-attachments/assets/83012da9-d260-49d2-a437-92c27a6cb4c6" />
 
