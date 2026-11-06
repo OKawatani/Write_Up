@@ -6,7 +6,7 @@
 
 ### Introdução
 
-Esse CTF, presente na plataforma [Cylab](https://learn.cylabacademy.org/library/156?page=1&search=nice&workspace=true), possui a seguinte descrição:
+Esse CTF, presente na plataforma [Cylab](https://learn.cylabacademy.org/library/12?page=1&search=vault-door-1&workspace=true), possui a seguinte descrição:
 
 > This vault uses some complicated arrays! I hope you can make sense of it, special agent. The source code for this vault is here:
 >
