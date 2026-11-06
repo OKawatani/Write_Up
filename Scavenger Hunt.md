@@ -1,6 +1,6 @@
 # Scavenger Hunt
 
-**Categoria:** OSINT
+**Categoria:** OSINT / WEB EXPLOITATION
 
 **Autor:** madStacks
 
@@ -18,9 +18,9 @@ Ao iniciar a instância, que é gerada aleatoriamente toda vez que o desafio é 
 
 Ao acessar o link fornecido, nos deparamos com o seguinte site:
 
-<img width="949" height="320" alt="image" src="https://github.com/user-attachments/assets/c50812c5-0792-4b86-98f9-f30b2d6c66e1" />
+<img width="935" height="274" alt="image" src="https://github.com/user-attachments/assets/f8313241-e315-479e-9aed-b660df00b78a" />
 
-<img width="946" height="381" alt="image" src="https://github.com/user-attachments/assets/0acba88a-5fc8-4b4d-92f3-f73c3e680f9f" />
+<img width="933" height="334" alt="image" src="https://github.com/user-attachments/assets/fa1aca61-f646-4c5b-9719-950f490975ef" />
 
 Com base na dica fornecida pelo desafio, que menciona as tecnologias `HTML`, `CSS` e `JS (JavaScript)` utilizadas para desenvolver o site, podemos entender que algumas informações podem estar escondidas no próprio código-fonte da página. Para encontrá-las, pressionamos a tecla `F12` e acessamos as ferramentas de desenvolvedor do navegador.
 
@@ -28,13 +28,13 @@ Na aba `HTML`, encontramos o seguinte comentário:
 
 `<!-- Here's the first part of the flag: academy{t -->`
 
-<img width="895" height="488" alt="image" src="https://github.com/user-attachments/assets/0a21cfb7-5704-497b-9705-6422856def20" />
+<img width="887" height="474" alt="image" src="https://github.com/user-attachments/assets/ad136eb9-cab9-4f89-960f-5663f9fcc289" />
 
 Anotamos essa primeira parte da FLAG e seguimos para a área de `CSS` para procurar outras informações escondidas. Nela, encontramos mais um comentário contendo a segunda parte:
 
 `/* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */`
 
-<img width="995" height="741" alt="image" src="https://github.com/user-attachments/assets/b89a5ad0-107c-48bc-942c-d1fb96ce7276" />
+<img width="986" height="704" alt="image" src="https://github.com/user-attachments/assets/292e7c56-bcd5-484d-86c5-f8e8ba4e91fa" />
 
 Agora, seguindo para a última parte inicialmente indicada, a de `JavaScript`, não encontramos diretamente a terceira parte da FLAG, mas sim um comentário com a seguinte mensagem:
 
@@ -42,7 +42,7 @@ Agora, seguindo para a última parte inicialmente indicada, a de `JavaScript`, n
 
 `"Como posso impedir que o Google indexe meu site?"`
 
-<img width="996" height="644" alt="image" src="https://github.com/user-attachments/assets/5e60fd99-50d9-4621-ba41-6f3be1856c14" />
+<img width="984" height="584" alt="image" src="https://github.com/user-attachments/assets/a3d6f393-10e9-4d17-b376-7a8281f93038" />
 
 Essa mensagem nos dá uma dica sobre o arquivo `robots.txt`. Ele é utilizado em sites para informar aos mecanismos de busca, como o Google, quais páginas ou diretórios podem ou não ser rastreados. Esse arquivo fica localizado, geralmente, na raiz do site e pode ser acessado adicionando `/robots.txt` ao endereço.
 
